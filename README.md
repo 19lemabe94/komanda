@@ -25,8 +25,8 @@ HTML/CSS/JavaScript (caso seja necessário para alguma funcionalidade adicional)
 Instalação
 1. Clone o Repositório
 
-git clone https://github.com/seu-usuario/sistema-registro-vendas.git
-cd sistema-registro-vendas
+git clone https://github.com/19lemabe94/komanda.git
+cd sistema-komanda
 
 2. Instale as Dependências
 Certifique-se de que o Python esteja instalado. Em seguida, instale as dependências necessárias:
