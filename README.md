@@ -26,7 +26,7 @@ Instalação
 1. Clone o Repositório
 
 git clone https://github.com/19lemabe94/komanda.git
-cd sistema-komanda
+cd sistema/komanda
 
 2. Instale as Dependências
 Certifique-se de que o Python esteja instalado. Em seguida, instale as dependências necessárias:
@@ -43,7 +43,7 @@ python app.py
 A interface gráfica será aberta automaticamente, permitindo que o usuário interaja com o sistema.
 
 Estrutura do Projeto
-/sistema-registro-vendas
+/komanda
 │
 ├── /app.py            # Arquivo principal da aplicação
 ├── /models.py         # Definições das classes (Produto, Cliente, Venda, etc.)
