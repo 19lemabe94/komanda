@@ -1,6 +1,7 @@
 Sistema de Registro de Vendas
 Descrição
-O Sistema de Registro de Vendas é uma aplicação que permite a um usuário registrar vendas de produtos, associar vendas a clientes e gerar relatórios de vendas. O sistema foi desenvolvido com o objetivo de automatizar o processo de vendas, facilitando o registro e a gestão de transações de forma eficiente e prática.
+O Sistema de Registro de Vendas é uma aplicação que permite a um usuário registrar vendas de produtos, associar vendas a clientes e gerar relatórios de vendas.
+O sistema foi desenvolvido com o objetivo de automatizar o processo de vendas, facilitando o registro e a gestão de transações de forma eficiente e prática.
 
 Funcionalidades
 Login de Usuário: O sistema exige que o usuário faça login para acessar as funcionalidades do sistema.
