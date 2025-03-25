@@ -1,0 +1,120 @@
+Sistema de Registro de Vendas
+
+Descrição
+
+O Sistema de Registro de Vendas é uma aplicação desktop que permite a um usuário realizar o registro de vendas, gerar relatórios e armazenar informações relevantes sobre os produtos vendidos. O objetivo principal é automatizar o registro de vendas, tornando o processo mais eficiente e organizado.
+
+A interface será desenvolvida utilizando Custom Tkinter, garantindo um design intuitivo e responsivo.
+
+Como Acessar o Documento de Requisitos
+
+O Documento de Requisitos pode ser visualizado aqui.
+
+Objetivos do Sistema
+
+Automatizar o Registro de Vendas: O sistema deve permitir que o usuário registre vendas rapidamente, eliminando a necessidade de registros manuais.
+
+Gerar Relatórios: O sistema deve fornecer relatórios detalhados sobre as vendas realizadas.
+
+Facilidade de Uso: A interface deve ser intuitiva, garantindo uma curva de aprendizado rápida.
+
+Segurança: Deve haver um sistema de login para garantir que apenas usuários autorizados acessem a aplicação.
+
+Escalabilidade: A arquitetura do sistema deve permitir expansão futura, como suporte a múltiplos usuários e integrações com outros sistemas.
+
+Requisitos Funcionais
+
+1. Login do Usuário
+
+Descrição: O sistema deve permitir que o usuário faça login antes de acessar as funcionalidades.
+
+Requisitos:
+
+O usuário deve inserir um nome de usuário e senha.
+
+O sistema deve validar as credenciais antes de conceder acesso.
+
+Fluxo Principal:
+
+O usuário acessa a tela de login.
+
+O usuário insere seu nome de usuário e senha.
+
+O sistema valida as credenciais.
+
+Se corretas, o sistema redireciona para a tela principal.
+
+Se incorretas, exibe uma mensagem de erro.
+
+2. Registro de Vendas
+
+Descrição: O sistema deve permitir que o usuário registre vendas de produtos.
+
+Requisitos:
+
+O usuário deve poder selecionar produtos e inserir a quantidade vendida.
+
+O sistema deve calcular o valor total da venda.
+
+O sistema deve armazenar os dados da venda no banco de dados.
+
+Fluxo Principal:
+
+O usuário acessa a tela de registro de vendas.
+
+O usuário seleciona um ou mais produtos e informa a quantidade.
+
+O sistema calcula o total da venda.
+
+O usuário confirma a venda.
+
+O sistema armazena os dados e exibe uma mensagem de confirmação.
+
+3. Geração de Relatórios
+
+Descrição: O sistema deve gerar relatórios de vendas.
+
+Requisitos:
+
+O usuário deve poder filtrar vendas por período.
+
+O sistema deve calcular o total de vendas no período selecionado.
+
+O relatório deve ser exportável em formato CSV ou PDF.
+
+Fluxo Principal:
+
+O usuário acessa a tela de relatórios.
+
+O usuário seleciona um período para análise.
+
+O sistema gera o relatório e exibe na tela.
+
+O usuário pode exportar o relatório.
+
+Requisitos Não Funcionais
+
+Usabilidade: A interface deve ser amigável e de fácil navegação.
+
+Desempenho: O tempo de resposta para a geração de relatórios deve ser inferior a 5 segundos.
+
+Segurança: As credenciais dos usuários devem ser armazenadas de forma segura.
+
+Portabilidade: O sistema deve rodar em ambientes Windows e Linux.
+
+Tecnologias Utilizadas
+
+Python: Linguagem principal do projeto.
+
+Custom Tkinter: Para interface gráfica personalizada.
+
+MySQL: Banco de dados relacional para armazenar informações.
+
+Pandas: Para manipulação de dados nos relatórios.
+
+ReportLab: Para exportação de relatórios em PDF.
+
+Considerações Finais
+
+O Sistema de Registro de Vendas será uma ferramenta essencial para simplificar a gestão de vendas, fornecendo uma solução eficiente e automatizada para o usuário. Com uma interface intuitiva e funcionalidades essenciais, o sistema irá melhorar o controle e análise de vendas.
+
