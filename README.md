@@ -1,6 +1,8 @@
 Sistema de Registro de Vendas
 Descrição
-O Sistema de Registro de Vendas é uma aplicação que permite a um usuário registrar vendas de produtos, associar vendas a clientes e gerar relatórios de vendas. O sistema foi desenvolvido com o objetivo de automatizar o processo de vendas, facilitando o registro e a gestão de transações de forma eficiente e prática.
+O Sistema de Registro de Vendas é uma aplicação desktop que permite a um usuário registrar vendas de produtos, associar vendas a clientes e gerar relatórios de vendas. O sistema foi desenvolvido com o objetivo de automatizar o processo de vendas, facilitando o registro e a gestão de transações de forma eficiente e prática.
+
+A interface gráfica é construída com custom TKINTER, oferecendo uma experiência de usuário simples e intuitiva.
 
 Funcionalidades
 Login de Usuário: O sistema exige que o usuário faça login para acessar as funcionalidades do sistema.
@@ -11,14 +13,16 @@ Cálculo Automático: O sistema calcula automaticamente o valor total da venda, 
 
 Geração de Relatórios: O usuário pode gerar relatórios de vendas para visualizar o total de vendas realizadas em um período específico.
 
+Interface Gráfica: Interface intuitiva construída com custom TKINTER para facilitar a interação do usuário com o sistema.
+
 Tecnologias Utilizadas
 Python: Linguagem de programação utilizada para o desenvolvimento do sistema.
 
-Flask (ou Django): Framework para desenvolvimento da aplicação web.
+custom TKINTER: Biblioteca para criar a interface gráfica do sistema, com componentes personalizados.
 
 MySQL: Banco de dados relacional utilizado para armazenar informações sobre clientes, produtos e vendas.
 
-HTML/CSS/JavaScript: Tecnologias para a interface do usuário, caso seja necessário um front-end básico.
+HTML/CSS/JavaScript (caso seja necessário para alguma funcionalidade adicional).
 
 Instalação
 1. Clone o Repositório
@@ -46,13 +50,7 @@ bash
 Copy
 Edit
 python app.py
-Ou, se estiver usando Flask:
-
-bash
-Copy
-Edit
-flask run
-Acesse o sistema pelo navegador em http://127.0.0.1:5000.
+A interface gráfica será aberta automaticamente, permitindo que o usuário interaja com o sistema.
 
 Estrutura do Projeto
 bash
@@ -63,8 +61,7 @@ Edit
 ├── /app.py            # Arquivo principal da aplicação
 ├── /models.py         # Definições das classes (Produto, Cliente, Venda, etc.)
 ├── /config.py         # Configurações do banco de dados e do sistema
-├── /templates/        # Arquivos HTML para a interface
-├── /static/           # Arquivos estáticos (CSS, JS)
+├── /interface.py      # Código relacionado à interface gráfica customizada com TKINTER
 ├── /requirements.txt  # Dependências do projeto
 └── /README.md         # Este arquivo
 Como Contribuir
@@ -78,3 +75,5 @@ Envie para o repositório remoto (git push origin feature/novas-funcionalidades)
 
 Abra um Pull Request.
 
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
