@@ -45,12 +45,18 @@ A interface gráfica será aberta automaticamente, permitindo que o usuário int
 Estrutura do Projeto
 /komanda
 │
-├── /app.py            # Arquivo principal da aplicação
-├── /models.py         # Definições das classes (Produto, Cliente, Venda, etc.)
-├── /config.py         # Configurações do banco de dados e do sistema
-├── /interface.py      # Código relacionado à interface gráfica customizada com TKINTER
-├── /requirements.txt  # Dependências do projeto
-└── /README.md         # Este arquivo
+├── /app.py            
+# Arquivo principal da aplicação
+├── /models.py        
+# Definições das classes (Produto, Cliente, Venda, etc.)
+├── /config.py        
+# Configurações do banco de dados e do sistema
+├── /interface.py      
+# Código relacionado à interface gráfica customizada com TKINTER
+├── /requirements.txt  
+# Dependências do projeto
+└── /README.md        
+# Este arquivo
 
 
 Como Contribuir:
